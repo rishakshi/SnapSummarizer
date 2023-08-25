@@ -1,0 +1,54 @@
+/* BODY  */
+body {
+    margin: 0;
+    background-color: #cbefcc;
+    width: 300px;
+    height: 300px;
+}
+
+/* BUTTONS */
+.my-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    margin: 20 auto;
+}
+
+.my-button:hover {
+    background-color: #45a049;
+}
+
+#cancelButton {
+    padding: 10px 10px;
+    background-color: #044a08;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* NAVBAR  */
+.navbar {
+    background-color: #044a08;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* TEXT  */
+h2 {
+    text-align: center;
+}

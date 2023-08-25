@@ -1,0 +1,41 @@
+/* BODY  */
+body {
+    margin: 0;
+    background-color: #cbefcc;
+    width: 300px;
+    height: 300px;
+}
+
+/* NAVBAR  */
+.navbar {
+    background-color: #044a08;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Button  */
+#cancelButton {
+    padding: 10px 10px;
+    background-color: #044a08;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#content{
+    display: block;
+    background-color: #86f389;
+    height: 230px;
+    width: auto;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+}
