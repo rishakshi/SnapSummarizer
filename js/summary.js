@@ -3,6 +3,8 @@ document.getElementById("cancelButton").addEventListener("click", function () {
     window.close();
 });
 
+import {pageContent} from '../js/index.js'
+
 const content = document.getElementById('content');
-content.innerHTML = window.pageContent;
-// content.textContent = window.pageContent;
+// content.innerHTML = window.pageContent;
+content.textContent = pageContent;
